@@ -1,7 +1,7 @@
 // LinkedList Program1 ----->  make a list of items and search a particular item and print index......
 
 import java.util.*;
-class HelloWorld {
+class LinkedListExample1 {
     public static void main(String[] args) {
         System.out.println();
         LinkedList <Integer> list= new LinkedList<Integer>();
@@ -29,7 +29,7 @@ class HelloWorld {
 // LinkedList program2 -----------> Take a list as input from user and delete numbers greater than 25
 
 import java.util.*;
-class HelloWorld {
+class LinkedListExample2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         LinkedList <Integer> list= new LinkedList<Integer>();
@@ -48,8 +48,3 @@ class HelloWorld {
         System.out.print(list);
     }
 }
-
-
-
-
-
